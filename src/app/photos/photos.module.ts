@@ -1,4 +1,4 @@
-import { PhotoComponent } from './../photo/photo.component';
+import { PhotoComponent } from './photo/photo.component';
 import { NgModule } from "@angular/core";
 
 @NgModule({
