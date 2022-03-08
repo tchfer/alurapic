@@ -1,3 +1,4 @@
+import { SerachComponent } from './search/search.component';
 import { CardModule } from './../../shared/components/card/card.module';
 import { PhotoModule } from '../photo/photo.module';
 import { CommonModule } from '@angular/common';
@@ -14,7 +15,8 @@ import { PhotosComponent } from './photos/photos.component';
     PhotoListComponent,
     PhotosComponent,
     LoadButtonComponent,
-    FilterByDescription
+    FilterByDescription,
+    SerachComponent
   ],
   imports: [
     CommonModule,
