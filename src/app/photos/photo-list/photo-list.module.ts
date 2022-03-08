@@ -1,3 +1,4 @@
+import { CardModule } from './../../shared/components/card/card.module';
 import { PhotoModule } from '../photo/photo.module';
 import { CommonModule } from '@angular/common';
 import { NgModule } from "@angular/core";
@@ -17,7 +18,8 @@ import { PhotosComponent } from './photos/photos.component';
   ],
   imports: [
     CommonModule,
-    PhotoModule
+    PhotoModule,
+    CardModule
   ]
 })
 export class PhotoListModule {}
